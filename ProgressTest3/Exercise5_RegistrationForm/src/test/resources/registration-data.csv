@@ -1,0 +1,8 @@
+firstName,lastName,email,gender,phone,expected
+Duyen,Tran,duyen.tran@example.com,Female,0987654321,success
+Linh,Pham,linh.pham@example.com,Male,0912345678,success
+An,Nguyen,annguyen@test,Other,0912345678,error_email
+Hoa,Le,hoa.le@example.com,Male,,error_phone
+,,invalid@test.com,Female,0999999999,error_first_last
+Minh,Hoang,minh.hoang@example.com,,0911111111,error_gender
+Quyen,Nguyen,quyen.nguyen@example.com,Female,abcxyz,error_phone
